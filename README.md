@@ -1,11 +1,11 @@
 # Horoscope
-This project is a simple website created using React, sass.
+This project is a simple website created using React and sass.
 ## Screenshots
 ![Project snapshot](./horoscope.gif) 
 
 [Horoscope Live Page](https://horoscope-mysite.netlify.app/)
 ## Description
-My second product list  page with mock Apı
+I used a mock API on this website.
 In the project directory, you can run:
 ### `npm start`
 Runs the app in the development mode.\
