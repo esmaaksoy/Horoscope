@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap');
+nav{
+    display: flex;
+   justify-content:space-between;
+   align-items: center;
+   padding: 1rem 3rem 0 2rem;
+   background: #CD890C;
+   font-family: "Rubik Distressed",cursive;
+    img{
+        width: 100px;
+    }
+    ul {
+        display: flex;
+        gap: 1rem;
+        li{
+            list-style: none;
+            padding: 0.5rem;
+            font-size: 1.5rem;
+            &:hover{
+                background-color: black;
+                color: #CD890C;
+                border-radius: 0.5rem;
+            }
+        }
+    }
+   
+}
