@@ -1,9 +1,9 @@
-
+import "./Header.scss"
 
 const Header = () => {
   return (
     <div>
-      WHO ARE YOU
+      WHO ARE YOU ?
     </div>
   )
 }
