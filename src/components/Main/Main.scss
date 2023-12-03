@@ -1,0 +1,40 @@
+main {
+  height: 100vh;
+  padding: 2rem;
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    .card {
+      width: 500px;
+      position: relative;
+      img {
+        width: 100%;
+        opacity: 0.5;
+      
+      }
+      .title {
+        font-size: 3rem;
+        font-family: "Rubik Distressed",cursive;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: black;
+        color: #CD890C;
+        border-radius: 0.5rem;
+      }
+      span{
+         position: absolute; 
+         top:50% ;
+         left: 50%;
+         transform: translate(-50%, -50%);
+         background-color: black;
+         color: #CD890C;
+         padding: 1.5rem;
+         border-radius: 0.5rem;
+
+      }
+    }
+  }
+}

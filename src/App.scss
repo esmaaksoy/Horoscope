@@ -1,6 +1,12 @@
-
+@import "./components/Main/Main.scss";
+@import "./components/Header/Header.scss";
+@import "./components/Navbar/Navbar.scss";
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to right,#B87B0B,#734D07,#251903);
 }
